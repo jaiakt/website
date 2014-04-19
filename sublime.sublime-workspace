@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"heade",
+				"header-height"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"verb",
+				"verbptr"
+			],
+			[
+				"adj",
+				"adjectiveptr"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"sassb",
+				"SassBeautify"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass be",
+				"SassBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jai/SkyDrive/Website/sublime.sublime-project",
+		"/C/Users/Jai/Downloads/Files2/Files/main.css",
+		"/C/Users/Jai/AppData/Local/Temp/Temp1_triangles.zip/triangles/readme.txt",
+		"/C/Users/Jai/SkyDrive/Website/js/smooth-scroll.js",
+		"/C/Users/Jai/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Users/Jai/SkyDrive/Website/sass/screen.scss",
+		"/C/Users/Jai/SkyDrive/Website/css/style.css",
+		"/C/Users/Jai/SkyDrive/Website/sass/style.scss",
+		"/C/Users/Jai/SkyDrive/Website/index.html",
+		"/C/Users/Jai/SkyDrive/Website/.sass-cache/47b05a1a32d127917ed072c268177c59b93f08c6/style.scssc",
+		"/C/Users/Jai/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jai/SkyDrive/Website/css/style-mack.css",
+		"/C/Users/Jai/rails/depot/app/models/product.rb",
+		"/C/Users/Jai/rails/depot/app/views/layouts/application.html.erb",
+		"/C/Users/Jai/rails/depot/app/assets/stylesheets/application.css.scss",
+		"/C/Users/Jai/rails/depot/app/views/store/index.html.erb",
+		"/C/Users/Jai/rails/depot/test/controllers/store_controller_test.rb",
+		"/C/Users/Jai/rails/depot/config/environments/development.rb",
+		"/C/Users/Jai/rails/depot/db/development.sqlite3",
+		"/C/Users/Jai/rails/depot/config/database.yml",
+		"/C/Users/Jai/rails/depot/app/assets/stylesheets/application.css",
+		"/C/Users/Jai/rails/depot/test/models/product_test.rb",
+		"/C/Users/Jai/rails/depot/test/fixtures/products.yml",
+		"/C/Users/Jai/rails/depot/config/routes.rb",
+		"/C/Users/Jai/rails/depot/app/controllers/store_controller.rb",
+		"/C/Users/Jai/rails/depot/app/assets/stylesheets/store.css.scss",
+		"/C/Users/Jai/rails/depot/test/controllers/products_controller_test.rb",
+		"/C/Users/Jai/rails/depot/app/views/products/index.html.erb",
+		"/C/Users/Jai/rails/depot/app/assets/stylesheets/products.css.scss",
+		"/C/Users/Jai/rails/depot/app/views/products/_form.html.erb",
+		"/C/Users/Jai/rails/depot/db/seeds.rb",
+		"/C/Program Files/Sublime Text 3/subl.bat",
+		"/C/Users/Jai/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jai/Downloads/main.madlibsc (4) (3).c",
+		"/C/Users/Jai/Downloads/main.convertinghighlow1.c",
+		"/C/Users/Jai/rails/demo/app/helpers/say_helper.rb",
+		"/C/Users/Jai/rails/demo/db/seeds.rb",
+		"/C/Users/Jai/rails/demo/app/helpers/application_helper.rb",
+		"/C/Users/Jai/rails/demo/Gemfile",
+		"/C/autorun.bat",
+		"/C/Users/Jai/Downloads/csclubsite-master/index.html",
+		"/C/Users/Jai/Downloads/eMu3Ds_Setup/README.txt",
+		"/C/Users/Jai/Downloads/csclubsite-master/css/style.css",
+		"/C/Users/Jai/SkyDrive/Computer Science Club/main.convertinghighlow1.c",
+		"/C/Users/Jai/Downloads/team list 2014-2015.txt",
+		"/C/Users/Jai/AppData/Local/Temp/Temp1_gcmm_1.4c.zip/gcmm_1.4c/readme.txt",
+		"/F/csclubsite-master/css/style.css",
+		"/F/csclubsite-master/index.html",
+		"/F/csclubsite-master-demo/index.html",
+		"/C/Users/Jai/Downloads/CustomView/custom-view/src/com/example/android/customviews/MainActivity.java",
+		"/C/Users/Jai/Downloads/CountWords.java",
+		"/C/Users/Jai/SkyDrive/Documents/Files/links.txt",
+		"/C/Users/Jai/SkyDrive/osu favorites",
+		"/C/Users/Jai/SkyDrive/School Work/10th Grade/AP Computer Science/MergeSort/MergeSort.java",
+		"/C/Users/Jai/SkyDrive/School Work/10th Grade/AP Computer Science/QuadSort/Sorts.java",
+		"/C/Program Files (x86)/osu!/osu!.Jai.cfg",
+		"/C/Users/Jai/Downloads/Merge.java",
+		"/C/Users/Jai/Downloads/CustomView/custom-view/src/com/example/android/customviews/charting/PieChart.java",
+		"/C/Users/Jai/SkyDrive/temp/test.java",
+		"/C/Users/Jai/tmp/temp.java",
+		"/C/Users/Jai/AppData/Local/Temp/Temp1_CustomView.zip/custom-view/src/com/example/android/customviews/MainActivity.java",
+		"/C/Users/Jai/AppData/Local/Temp/Temp1_CustomView.zip/custom-view/src/com/example/android/customviews/charting/PieChart.java",
+		"/C/Users/Jai/Downloads/Custom Skins/FoxeUI v6.2 Season 3 patch 3.8.[UPDATED]/foxeui_v6_2_season_3_patch_3_8_by_alm1ghtypeanut-d5s51tv/FoxeUI_v6.2/Combat Text/FontTypes.xml",
+		"/C/Users/Jai/Downloads/Custom Skins/FoxeUI v6.2 Season 3 patch 3.8.[UPDATED]/foxeui_v6_2_season_3_patch_3_8_by_alm1ghtypeanut-d5s51tv/FoxeUI_v6.2/Combat Text/FontDescriptions.xml",
+		"/C/Users/Jai/Downloads/105436.user.js",
+		"/C/Users/Jai/SkyDrive/Script.ahk",
+		"/C/Users/Jai/Documents/AutoHotkey.ahk",
+		"/C/xampp/htdocs/cs/index.php",
+		"/C/xampp/htdocs/cs/about.php",
+		"/C/Users/Jai/Downloads/view-source andrewpage.me apcs about.php",
+		"/C/Users/Jai/Downloads/apcs/about.php",
+		"/C/Users/Jai/Downloads/resources.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"white",
+			"top",
+			"bot",
+			"lobs",
+			"html",
+			"<?"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"scss",
+				"css\\style.css"
+			],
+			[
+				"css",
+				"css\\style.css"
+			],
+			[
+				"development.rb",
+				"config\\environments\\development.rb"
+			],
+			[
+				"saycontr",
+				"app\\controllers\\say_controller.rb"
+			],
+			[
+				"hellohtml",
+				"app\\views\\say\\hello.html.erb"
+			],
+			[
+				"good",
+				"app\\views\\say\\goodbye.html.erb"
+			],
+			[
+				"hell",
+				"app\\views\\say\\hello.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

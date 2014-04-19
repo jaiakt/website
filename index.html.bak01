@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jai Srivastav</title>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" href="css/screen.css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"> </script>
+	<script type="text/javascript" src="js/smooth-scroll.js"> </script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script jype="text/javascript" src="js/script.js"> </script>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<a href=#><div id="logo">Jai Srivastav</div></a>
+			<ul id="navbar">
+				<a href="#"><li id="aboutLink">About</li></a>
+				<a href="#"><li id="skillsLink">Skills</li></a>
+				<a href="#"><li id="portfolioLink">Portfolio</li></a>
+				<a href="#"><li id="contactLink">Contact</li></a>
+			</ul>
+		</div>
+	</header>
+	
+	<div id="about">
+		<div class="wrapper">
+			<h1>A Little About Me</h1>
+			<hr />
+			<!--<div class="carousel">
+				<div>
+					<img src="img/technology.jpg" alt="image has not loaded" />
+					<p>I code.  I teach coding.  I have a passion for technology.</p>
+				</div>
+				<div>
+					<img src="img/mun_flag.png" alt="image has not loaded" />
+					<p>I am the vice president of Model United Nations.</p>
+				</div>
+				<div>
+					<img src="img/piano_guitar.jpg" alt="image has not loaded" />
+					<p>I enjoy playing piano, playing guitar, and singing.</p>
+				</div>
+				<div>
+					<img src="img/food.jpg" alt="image has not loaded" />
+					<p>I am addicted to good food.</p>
+				</div>
+			</div>-->	
+		</div>
+	</div>
+
+	<div id="skills">
+		<div class="wrapper">
+			<h1>A Little About Me</h1>
+			<hr />
+			<div class="temp">hello world</div>
+			<!--<div class="carousel">
+				<div>
+					<img src="img/technology.jpg" alt="image has not loaded" />
+					<p>I code.  I teach coding.  I have a passion for technology.</p>
+				</div>
+				<div>
+					<img src="img/mun_flag.png" alt="image has not loaded" />
+					<p>I am the vice president of Model United Nations.</p>
+				</div>
+				<div>
+					<img src="img/piano_guitar.jpg" alt="image has not loaded" />
+					<p>I enjoy playing piano, playing guitar, and singing.</p>
+				</div>
+				<div>
+					<img src="img/food.jpg" alt="image has not loaded" />
+					<p>I am addicted to good food.</p>
+				</div>
+			</div>-->
+		</div>
+	</div>
+</body>
+</html>

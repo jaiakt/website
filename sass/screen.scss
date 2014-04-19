@@ -1,0 +1,172 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+@mixin center($width) {
+    width: $width;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    @include center(1000px);
+}
+
+/************************************************************************/
+// HEADER
+/************************************************************************/
+
+$header-height: 75px;
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $header-height;
+    background-color: black;
+    border-bottom: 2px solid #D1D1D1; 
+}
+
+header .wrapper {
+    color: #999999;
+}
+
+#logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 2.3em;
+    color: white;
+}
+
+#navbar {
+    height: 100%;
+    float: right;
+}
+
+#navbar li {
+    display: inline-block;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+#navbar a {
+    margin: 0;
+}
+
+#navbar li:hover {
+    //background-color: #333333;
+}
+
+
+/************************************************************************/
+// ABOUT
+/************************************************************************/
+
+#about{
+    margin-top: $header-height;
+    padding: 30px 0;
+    font-weight: 300;
+}
+#about .wrapper {
+    background-repeat: repeat;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    @include center(500px);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#about hr {
+    margin-bottom: 40px;
+    width: 40%;
+}
+
+#about_boxes .box {
+    vertical-align:top;
+    display: inline-block;
+    width: 230px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#about_boxes .box:last-child {
+    margin-right: 0;
+}
+
+#about_boxes .box div {
+    height: 230px;
+    background-size: cover;
+    margin-bottom: 15px;
+    @include border-radius(40px);
+}
+
+#about_boxes p {
+    font-size: .9em;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+#technology_image {
+    background-image: url("../img/technology.jpg");
+}
+
+#mun_image {
+    background-image: url("../img/mun_flag.png");
+}
+
+#piano_guitar_image {
+    background-image: url("../img/piano_guitar.jpg");
+}
+
+#food_image {
+    background-image: url("../img/food.jpg");
+}
+
+
+/************************************************************************/
+// ABOUT
+/************************************************************************/
+
+#skills {
+    background-image: url('../img/p5.png');
+    // background-image: url('dark_fish_skin.png');
+    background-repeat: repeat;
+    color: #191919;
+    padding: 30px 0;
+}
+
+#skills h1 {
+    font-size: 2.5em;
+    @include center(500px);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills hr {
+    margin-bottom: 20px;
+    width: 40%;
+}
