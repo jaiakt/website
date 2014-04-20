@@ -20,6 +20,11 @@ function changeText() {
 	});
 }
 
+function resizeBanner() {
+	var height = $(window).height();
+	$("#banner").height(height * 0.75);
+}
+
 $(document).ready(function(){
 
 	//Navigation Bar Link Fade In/Out
@@ -48,6 +53,11 @@ $(document).ready(function(){
 		}
 	});
 
+	//Constantly change banner text
 	changeText();
+
+	// Resize Banner
+	resizeBanner();
+	$(window).resize(resizeBanner);
 
 });
