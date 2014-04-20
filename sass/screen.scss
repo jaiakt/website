@@ -26,6 +26,52 @@ a {
     @include center(1000px);
 }
 
+.link {
+    cursor: pointer;
+}
+
+
+/************************************************************************/
+// BANNER
+/************************************************************************/
+
+#banner {
+    height: 750px;
+    white-space: nowrap;
+    text-align: center;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
+
+#bannerText {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3em;
+    font-weight: 700;
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    vertical-align: middle;
+    white-space: normal;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.centerHelper {
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+}
+
+.changingText {
+    width: 800px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
 /************************************************************************/
 // HEADER
 /************************************************************************/
@@ -33,12 +79,15 @@ a {
 $header-height: 75px;
 
 header {
-    position: fixed;
-    top: 0;
     width: 100%;
     height: $header-height;
     background-color: black;
     border-bottom: 2px solid #D1D1D1; 
+}
+
+.stickyNavBar {
+    position: fixed;
+    top: 0;
 }
 
 header .wrapper {
@@ -85,10 +134,15 @@ header .wrapper {
 /************************************************************************/
 
 #about{
-    margin-top: $header-height;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
     font-weight: 300;
 }
+
+.stickyAbout {
+    margin-top: $header-height;
+}
+
 #about .wrapper {
     background-repeat: repeat;
 }
@@ -101,15 +155,15 @@ header .wrapper {
 }
 
 #about hr {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     width: 40%;
 }
 
 #about_boxes .box {
     vertical-align:top;
     display: inline-block;
-    width: 230px;
-    margin-right: 15px;
+    width: 200px;
+    margin-right: 60px;
     text-align: center;
 }
 
@@ -117,8 +171,8 @@ header .wrapper {
     margin-right: 0;
 }
 
-#about_boxes .box div {
-    height: 230px;
+#about_boxes .box .image {
+    height: 200px;
     background-size: cover;
     margin-bottom: 15px;
     @include border-radius(40px);
@@ -156,7 +210,8 @@ header .wrapper {
     // background-image: url('dark_fish_skin.png');
     background-repeat: repeat;
     color: #191919;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #skills h1 {
@@ -167,6 +222,6 @@ header .wrapper {
 }
 
 #skills hr {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 40%;
 }
