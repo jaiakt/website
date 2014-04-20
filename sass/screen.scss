@@ -66,10 +66,16 @@ a {
 
 .changingText {
     width: 800px;
-    height: 100px;
+    height: 50px;
     display: inline-block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+
+#bannerSubscript {
+    font-size: 0.35em;
+    margin-top: 15px;
+    display: block;
 }
 
 /************************************************************************/
@@ -222,6 +228,102 @@ header .wrapper {
 }
 
 #skills hr {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 40%;
+}
+
+$progressBarHeight: 10px;
+$progressBarWidth: 400px;
+$progressBarBorderWidth: 1px;
+
+.progress {
+    width: 100%;
+    height: $progressBarHeight;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.progress div {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: inline-block;
+    border-top: $progressBarBorderWidth solid black;
+    border-bottom: $progressBarBorderWidth solid black;
+}
+
+.progress .completed {
+    background-color: #78CFF5;
+    @include border-top-left-radius($progressBarHeight / 2);
+    @include border-bottom-left-radius($progressBarHeight / 2);
+    border-left: $progressBarBorderWidth solid black;
+}
+
+.progress .uncompleted {
+    background-color: white;
+    @include border-top-right-radius($progressBarHeight / 2);
+    @include border-bottom-right-radius($progressBarHeight / 2);
+    border-right: $progressBarBorderWidth solid black;
+}
+
+.progress80 .completed {
+    width: $progressBarWidth * 0.8 - 1;
+}
+
+.progress80 .uncompleted {
+    width: $progressBarWidth * 0.2 - 1;
+}
+
+.progress90 .completed {
+    width: $progressBarWidth * 0.9 - 1;
+}
+
+.progress90 .uncompleted {
+    width: $progressBarWidth * 0.1 - 1;
+}
+
+.progressBox {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.progressBox span {
+    display: inline-block;
+}
+
+.progressBox .label {
+    width: 49%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.progressBox .percentage {
+    width: 49%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.progressBoxes {
+    width: $progressBarWidth;
+    display: inline-block;
+}
+
+.skillsDescription {
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.skillsDescriptionTableElement {
+    vertical-align: top;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: $progressBarWidth;
+}
+
+.skillsTable {
+    margin: 0 auto;
 }
